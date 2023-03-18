@@ -155,13 +155,11 @@ img {
 .header-mailto:hover,
 .header-tel:hover {
   color: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-link:hover,
 .adress-link:focus {
   color: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Hero */
@@ -325,7 +323,6 @@ img {
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
   text-align: center;
-  padding-bottom: 32px;
 }
 .team-list {
   display: flex;
@@ -374,7 +371,6 @@ img {
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--team-hover-background-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*
 .social-media-icon {
@@ -414,6 +410,7 @@ img {
   width: 168px;
   height: 88px;
   color: var(--customer-color);
+  border: 1px solid var(--customer-color);
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -428,13 +425,11 @@ img {
 .customer-link:focus {
   border-color: var(--customer-active-color);
   color: var(--customer-active-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-icon:hover,
 .customer-icon:focus {
   fill: var(--customer-fill-active-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*-------------Footer-------------*/
